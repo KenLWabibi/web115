@@ -21,10 +21,16 @@
     </header>
     <main>
         <h2>Contract</h2>
-        <p>I, <a href="introduction.html">Ken L. Wabibi</a>, agree to abide by the terms in my NameOfSemester ABC123-99 Name of this Course 
-           with my instructor, Preferred Name of Instructor.</p>
-        <p>This is a 2nd sample paragraph for the template page. I'll change it 
-           or delete it depending on the assignment i create from it.</p> 
+        <p>I, <a href="introduction.html">Ken L. Wabibi</a>, agree to abide by the terms in my Spring 2025 WEB115-N801 Web Markup and Scripting Course 
+           with my instructor, Professor D.I. von Briesen.</p>
+       
+        <p>I understand that all work that I do on my school and personal websites will be publicly available to the world. 
+           I will not put information there that is inappropriate for schoolwork, or that I wish to keep private.</p> 
+
+        <p>I also understand that it is my work that counts for attendance, not logins or showing up for class. 
+           As such, failure to turn in assignments may show as absences.</p>
+
+        <p><i>Signed: Ken L. Wabibi, 19 January 2025</i></p>
     </main>
 </body>
 <footer>
