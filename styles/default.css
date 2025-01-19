@@ -31,10 +31,15 @@ body {
     box-sizing: border-box;
     box-shadow: 5px, 5px, 10px, 0px, rgb(240, 240, 247);
 }
+.center{
+    display: block;
+    mergin-left: auto;
+    mergin-right: auto;	
+}
 figure figcaption {
     text-align: center;	
 }
-figure figcaption img alt {
+figure figcaption alt {
     display: block;
     mergin-left: auto;
     mergin-right: auto;	
