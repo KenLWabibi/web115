@@ -26,7 +26,8 @@ body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     margin: 0 auto;
     padding: 0;
-    text-align: left;	
+    text-align: left;
+    float: none;
     box-sizing: border-box;
     box-shadow: 5px, 5px, 10px, 0px, rgb(240, 240, 247);
 }
