@@ -33,7 +33,7 @@ body {
 figure figcaption {
     text-align: center;	
 }
-figure figcaption img {
+figure figcaption img alt {
     display: block;
     mergin-left: auto;
     mergin-right: auto;	
