@@ -30,8 +30,13 @@ body {
     box-sizing: border-box;
     box-shadow: 5px, 5px, 10px, 0px, rgb(240, 240, 247);
 }
-figure figcaption img {
+figure figcaption {
     text-align: center;	
+}
+figure figcaption img {
+    display: block;
+    mergin-left: auto;
+    mergin-right: auto;	
 }
 nav { 
     padding: 5px;
