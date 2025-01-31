@@ -25,21 +25,21 @@ main{
     flex-direction: column;
     justify-content: center;	
 }
-body {
-    width: 88.2%;	
-    max-width: 900px;	
-    background-color:#c3a456; 
+body { 
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     margin: 0 auto;
     padding: 50px;
     text-align: left;	
-    box-sizing: border-box;
-    box-shadow: 5px, 5px, 10px, 0px, rgb(240, 240, 247);
 }
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;	
+.container{
+    width: 100%;	
+    max-width: 1200px;
+    background-color:#5bbac4; 
+    border: 20px solid #732d02;
+    background-blend-mode: soft-light;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
 }
 figure figcaption {
     text-align: center;	
@@ -70,9 +70,6 @@ nav li {
 }
 a {
 	color: #1c0b01;
-}
-a:visited {
-	color: #bd6128;
 }
 a:hover {
 	color: #732d02;
