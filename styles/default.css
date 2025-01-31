@@ -26,6 +26,13 @@ main{
     justify-content: center;	
 }
 body { 
+    width: 100%;	
+    max-width: 1200px;
+    background-color:#5bbac4; 
+    border: 20px solid #732d02;
+    background-blend-mode: soft-light;
+    margin: 0 auto;
+    box-sizing: border-box;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     margin: 0 auto;
     padding: 50px;
