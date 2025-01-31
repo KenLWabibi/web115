@@ -11,8 +11,14 @@ html, body {
 }
 html {
 /* Set background color for desktop */
-    background-color: rgb(91, 17, 39);
-    margin: 0 auto;
+    background-image: url("../images/boattexture.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#5677c3; 
+    background-blend-mode: soft-light;
+    height: 100vh;
+    margin: 0;	
 }
 main{
     display: flex;
