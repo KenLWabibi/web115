@@ -29,6 +29,14 @@ header {
     box-sizing: border-box;
     padding: 20px;
 }
+figure figcaption {
+    text-align: center;	
+}
+figure figcaption alt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
 main{
     display: flex;
     flex-direction: column;
