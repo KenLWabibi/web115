@@ -24,7 +24,7 @@ header {
     width: 100%;	
     max-width: 1200px;
     background-color:#983d04; 
-    border: 5px solid #732d02;
+    border: 10px solid #732d02;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 20px;
@@ -64,7 +64,7 @@ body {
     width: 100%;	
     max-width: 1200px;
     background-color:#5bbac4; 
-    border: 10px solid #732d02;
+    border: 5px solid #732d02;
     background-blend-mode: soft-light;
     margin: 0 auto;
     box-sizing: border-box;
@@ -98,10 +98,10 @@ nav li {
     font-size: 1em;
 }
 a {
-	color: #983d04;
+	color: #0713c0;#983d04
 }
 a:hover {
-	color: #0713c0;
+	color: #983d04;
 }
 a:focus {
 	outline: thin dotted;
