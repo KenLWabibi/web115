@@ -121,5 +121,6 @@ footer {
 footer a {
 	font-size: 1em;
 	text-align: center; 
-	margin: 0 0px;
+	margin: 0;
+	padding: 0;
 }
