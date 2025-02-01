@@ -23,7 +23,7 @@ html {
 header {
     width: 100%;	
     max-width: 1200px;
-    background-color:#983d04; 
+    background-color:#967867; 
     border: 5px solid #732d02;
     margin: 0 auto;
     box-sizing: border-box;
@@ -112,9 +112,9 @@ h1, h2, h3, h4, h5, h6 {
 footer {
 /* Footer styles */
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
-    	padding: 20px;
+    	padding: 50px;
     	text-align: center; 
-	margin-top: 150px;
+	margin-top: 50px;
 }
 footer a {
 	font-size: 1em;
