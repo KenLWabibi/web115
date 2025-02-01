@@ -114,10 +114,10 @@ footer {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
     	padding: 20px;
     	text-align: center; 
-	margin-top: 50px;
+	margin-top: 60px;
 }
 footer a {
 	font-size: 1em;
 	text-align: center; 
-	margin: 0 5px;
+	margin: 0 2px;
 }
