@@ -115,11 +115,11 @@ footer {
     	padding: 20px;
     	text-align: center; 
 	margin-top: 80px;
+	background-color:#967867; 
+    	border: 2px solid #732d02;
 }
 footer a {
 	font-size: 1em;
 	text-align: center; 
 	margin: 0 2px;
-	background-color:#967867; 
-    	border: 2px solid #732d02;
 }
