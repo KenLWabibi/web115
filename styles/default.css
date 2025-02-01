@@ -50,7 +50,6 @@ main{
 body { 
     width: 100%;	
     max-width: 1200px;
-    height: 5px;
     background-color:#5bbac4; 
     border: 20px solid #732d02;
     background-blend-mode: soft-light;
@@ -120,5 +119,5 @@ footer {
 footer a {
 	font-size: 1em;
 	text-align: center; 
-	margin: 0 20px;
+	margin: 0 10px;
 }
