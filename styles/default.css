@@ -20,6 +20,15 @@ html {
     height: 100vh;
     margin: 0;	
 }
+header {
+    width: 100%;	
+    max-width: 1200px;
+    background-color:#983d04; 
+    border: 10px solid #732d02;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
 main{
     display: flex;
     flex-direction: column;
