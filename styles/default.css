@@ -50,7 +50,7 @@ main{
 body { 
     width: 100%;	
     max-width: 1200px;
-    height: 20px;
+    height: 5px;
     background-color:#5bbac4; 
     border: 20px solid #732d02;
     background-blend-mode: soft-light;
