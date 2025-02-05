@@ -1,89 +1,69 @@
-html body {
-    font-family: "Helvetice Neue", Arial, "Segor UI", sans-serif;
-}
-html {
-    background-image: url("../images/joaslogo3.png"); 
-    background-color: #A4AF69;
-    background-size: 400px 350px; 
-    background-position: right;
-    background-repeat: no-repeat;
-    
-    height: 100vh;
-    margin: 0;
-}
-body {
-    color: #4C2719;
-    box-sizing: border-box;
-    font-size: 20px;
-}
-header {
-    width: 100%;	
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center; 
-	margin-top: 5px;
-	
-}
-main {
-    position: absolute;
-    bottom: 0, auto;
-    left: 0;
-    padding-left: 30px;	
-}
-nav { 
-    padding: 5px;
-    text-align: center; 
-}
-nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-    margin: 0;
-}
-nav li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 5px;
-    margin: 0 15px;
-    font-size: 1.2em;
-}
-a {
-	color: #4C2719;
-}
-a:hover {
-	color: #F17105;
-}
-a:focus {
-	outline: thin dotted;
-}
-h1 {
-	text-align: center;
-    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-}
-h2 {
-    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-}
-h3 {
-    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-}
-h4 {
-    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-}
-footer {
-/* Footer styles */
-    font-size: 13px;
-    padding: 1px;
-    text-align: center; 
-	margin-top: 650px;
-    background-color: #EDE580; 
-    
-}
-footer a {
-	font-size: 1.2em;
-	text-align: center; 
-	margin: 0; 
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1"> 
+    <title>JACK OF ALL SPADES PODCAST ♠️ Brand Guide</title>
+    <link href="styles/brand.css" rel="stylesheet">
+    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="favicon/png" href="images/favicon.ico">
+</head>
 
+<body>
+    <header>
+        <h1>JACK OF ALL SPADES PODCAST</h1>
+        <nav>
+            <ul>
+                <li><a href="https://kenlwabibi.github.io/web115/index.html">Home</a></li> ♤
+                <li><a href="introduction.html">Introduction</a></li> ♤
+                <li><a href="contract.html">Course Contract</a></li> ♤
+                <li><a href="brand.html">Brand Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <blockquote>
+            "Your favorite podcaster, favorite podcast."
+        </blockquote>
+    </section>
+    <main>
+        <br>
+        <h2>Brand Guide</h2>
+        <p>Jack Of All Spades podcast focuses on community enrichment.</p> 
+        <p>We highlight individuals, organizations, and businesses around our community.</p>
+        <p>Each podcast episode is tailor-made to provide a unique experience for both 
+           our guest and listeners.</p>
+        <p>Our objective is to introduce you to our ever growing community.</p> 
+
+        <h3>Color Scheme</h3>
+        <ul>
+            <li><strong>#4c2719:</strong> For the body CSS rule and anchor tags.</li>
+            <li><strong>#A4AF69:</strong> For the HTML background color.</li>
+            <li><strong>#F17105:</strong> For the anchor tag hover and spades color in the Jack Of All Spades logo.</li>
+            <li><strong>#EDE580:</strong> For the Footer background color.</li>
+            <li><strong>#F2E9E4:</strong> For the Jack Of All Spades logo color.</li>
+        </ul>
+        <h4>Current Typeface</h4>
+        <ul>
+            <li><strong>Montserrat:</strong> Applied to the headers.</li>
+            <li><strong>Helvetice Neue:</strong> Applied to the text of the body.</li>
+        </ul>
+       <br>
+    </main>
+</body>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="https://github.com/KenLWabibi">Github</a></li> ♠️
+            <li><a href="https://KenLWabibi.github.io/">Github.io</a></li> ♠️
+            <li><a href="https://KenLWabibi.github.io/web115/">WEB115</a></li> ♠️
+            <li><a href="https://KenLWabibi.github.io/web250/">WEB250</a></li> ♠️
+            <li><a href="https://www.freecodecamp.org/poacode">freeCodeCamp</a></li> ♠️
+            <li><a href="https://www.codecademy.com/profiles/Poacode">Codeacademy</a></li> ♠️
+            <li><a href="https://jsfiddle.net/u/Poacode">JSFiddle</a></li> ♠️
+            <li><a href="https://www.linkedin.com/in/ken-wabibi-715158a2/">Linkedin</a></li>
+        </ul>
+    </nav>
+    <p>Website designed by Wabibi Industies</p>
+</footer>    
+</html>
