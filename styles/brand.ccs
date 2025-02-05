@@ -1,0 +1,89 @@
+html body {
+    font-family: "Helvetice Neue", Arial, "Segor UI", sans-serif;
+}
+html {
+    background-image: url("../images/joaslogo3.png"); 
+    background-color: #A4AF69;
+    background-size: 400px 350px; 
+    background-position: right;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    margin: 0;
+}
+body {
+    color: #4C2719;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+header {
+    width: 100%;	
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; 
+	margin-top: 5px;
+	
+}
+main {
+    position: absolute;
+    bottom: 0, auto;
+    left: 0;
+    padding-left: 30px;	
+}
+nav { 
+    padding: 5px;
+    text-align: center; 
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+a {
+	color: #4C2719;
+}
+a:hover {
+	color: #F17105;
+}
+a:focus {
+	outline: thin dotted;
+}
+h1 {
+	text-align: center;
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+h2 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+h3 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+h4 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+footer {
+/* Footer styles */
+    font-size: 13px;
+    padding: 1px;
+    text-align: center; 
+	margin-top: 595px;
+    background-color: #EDE580; 
+    
+}
+footer a {
+	font-size: 1.2em;
+	text-align: center; 
+	margin: 0; 
+    padding: 0;
+}
