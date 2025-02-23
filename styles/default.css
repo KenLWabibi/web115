@@ -51,7 +51,6 @@ body {
     width: 100%;	
     max-width: 1290px;
     background-color:#5bbac4; 
-    /* border: 20px solid #967867; */
     background-blend-mode: soft-light;
     margin: 0 auto;
     box-sizing: border-box;
@@ -124,5 +123,5 @@ footer a {
 	font-size: 1em;
 	text-align: center; 
 	margin: 0; 
-    	padding: 20px;
+    	padding: 0px;
 }
