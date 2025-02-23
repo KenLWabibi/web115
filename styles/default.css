@@ -51,6 +51,7 @@ body {
     width: 100%;	
     max-width: 1290px;
     background-color:#5bbac4; 
+    border: 20px solid #967867;
     background-blend-mode: soft-light;
     margin: 0 auto;
     box-sizing: border-box;
