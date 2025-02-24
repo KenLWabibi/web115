@@ -118,7 +118,7 @@ html, body {
     /* Footer styles */
         font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
         padding: 0px;
-        /* text-align: center; */ 
+ 	text-align: center; 
         margin-top: 90px;
         background-color:#967867; 
         border: 2px solid #732d02;
