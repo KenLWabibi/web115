@@ -84,7 +84,10 @@ img {
 nav { 
     padding: 5px;
     text-align: center; 
+    display: block;
+    unicode-bidi: isolate;	
 }
+
 nav ul {
     list-style-type: none;
     display: flex;
