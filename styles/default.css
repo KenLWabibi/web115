@@ -129,3 +129,53 @@ footer a {
 	margin: 0; 
     	padding: 0px;
 }
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+  html {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  header {
+    padding: 10px; /* Reduce header padding on smaller screens */
+  }
+
+  footer {
+    padding: 10px; /* Reduce footer padding on smaller screens */
+    margin-top: 30px; /* Adjust footer margin on small screens */
+  }
+
+  .container {
+    padding: 10px; /* Adjust container padding for small screens */
+  }
+
+  body {
+    padding: 20px; /* Adjust body padding */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack navigation items vertically */
+    align-items: center;     /* Center items */
+    width: 100%;             /* Ensure the nav takes up full width */
+  }
+
+  nav li {
+    margin-bottom: 10px;     /* Add spacing between links */
+  }
+
+  img {
+    width: 100%;  /* Ensure images scale with screen size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Optionally, reduce font size further on very small screens */
+  @media (max-width: 600px) {
+    html {
+      font-size: 14px; /* Smaller font size for very small screens */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1.2em; /* Adjust heading sizes */
+    }
+  }
+}
