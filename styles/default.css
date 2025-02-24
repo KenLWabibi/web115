@@ -105,6 +105,7 @@ html, body {
         flex-direction: row;
         justify-content: center;
         padding: 5px;
+	flex-wrap: wrap;
     }
     a {
         color: #000000;
