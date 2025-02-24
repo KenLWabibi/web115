@@ -94,8 +94,7 @@ html, body {
     	justify-content: center;
     	padding: 5px;
     	margin: 0;
-    	flex-wrap: nowrap; 
-    	overflow: hidden; 
+    	flex-wrap: wrap; 
     }
     nav li {
         display: inline-block;
