@@ -106,9 +106,6 @@ html, body {
     a {
         color: #000000;
         text-decoration: none;
-	display: flex;
-        flex-direction: row;
-        justify-content: center;
     }
     a:hover {
         color: #0713c0;
@@ -127,7 +124,7 @@ html, body {
         border: 2px solid #732d02;
     }
     footer a {
-        font-size: 1em;
+        font-size: 1px;
         text-align: center; 
         margin: 0; 
         padding: 0;
