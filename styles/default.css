@@ -5,6 +5,7 @@
 	Date: 18Jan24
    =============================================
 */
+
 html, body {
     /* Increase font size for desktop */
         font-size: 20px;
@@ -89,12 +90,12 @@ html, body {
     
     nav ul {
         list-style-type: none;
-    	display: flex;
-    	flex-direction: row;
-    	justify-content: center;
-    	padding: 5px;
-    	margin: 0;
-    	flex-wrap: wrap; 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5px;
+        margin: 0;
+	flex-wrap: wrap;
     }
     nav li {
         display: inline-block;
@@ -126,19 +127,9 @@ html, body {
 	box-sizing: border-box;    
     }
     footer a {
-        font-size: 20px;
+        font-size: 18px;
         text-align: center; 
         margin: 0; 
         padding: 0;
 	display: inline-block;
-    }
-
-    footer nav ul {
-    	width: 100%; 
-    	justify-content: center; 
-    }
-
-    footer nav li {
-    	padding: 5px 10px; 
-    	font-size: 1rem; 
     }
