@@ -88,14 +88,15 @@ html, body {
     }	
     
     nav ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 5px;
-        margin: 0;
-	flex-wrap: wrap;
-    }
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; /* Ensures items are aligned horizontally */
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+    flex-wrap: nowrap; /* Prevents wrapping */
+}
+
     nav li {
         display: inline-block;
         list-style-type: none;
