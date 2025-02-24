@@ -88,24 +88,21 @@ html, body {
     }	
     
     nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row; /* Ensures items are aligned horizontally */
-    justify-content: center;
-    padding: 5px;
-    margin: 0;
-    flex-wrap: nowrap; /* Prevents wrapping */
-}
-
-    nav li {
         list-style-type: none;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	padding: 5px;
+    	margin: 0;
+    	flex-wrap: nowrap; 
+    	overflow: hidden; 
+    }
+    nav li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 5px;
         margin: 0 15px;
         font-size: 1em;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 5px;
-	flex-wrap: wrap;
     }
     a {
         color: #000000;
@@ -135,4 +132,14 @@ html, body {
         margin: 0; 
         padding: 0;
 	display: inline-block;
+    }
+
+    footer nav ul {
+    	width: 100%; 
+    	justify-content: space-evenly; 
+	}
+
+    footer nav li {
+    	padding: 5px 10px; 
+    	font-size: 1rem; 
     }
