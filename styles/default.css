@@ -6,115 +6,127 @@
    =============================================
 */
 html, body {
-    font-size: 16px; /* Adjust font size for mobile and larger screens */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    background-image: url("../images/boattexture.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #5677c3;
-    background-blend-mode: soft-light;
-    height: 100%;
-}
-
-body {
-    width: 100%;
-    background-color: #5bbac4;
-    background-blend-mode: soft-light;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-    margin: 0;
-    padding: 20px;
-    text-align: left;
-}
-
-header {
-    width: 100%;
-    max-width: 1200px;
-    background-color: #967867;
-    border: 2px solid #732d02;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 20px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-figure figcaption {
-    text-align: center;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    background-color: #5bbac4;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-img {
-    max-width: 100%; /* Ensures images are fluid and resize based on screen width */
-    height: auto; /* Maintain aspect ratio */
-    border: 5px solid #732d02;
-}
-
-nav {
-    padding: 5px;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-    margin: 0;
-    flex-wrap: wrap; /* Ensures the nav items wrap on smaller screens */
-}
-
-nav li {
-    display: inline-block;
-    padding: 5px;
-    margin: 0 15px;
-    font-size: 1em;
-}
-
-a {
-    color: #000000;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0713c0;
-}
-
-footer {
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-    padding: 20px;
-    text-align: center;
-    margin-top: 90px;
-    background-color: #967867;
-    border: 2px solid #732d02;
-}
-
-footer a {
-    font-size: 1em;
-    padding: 0;
-}
+    /* Increase font size for desktop */
+        font-size: 20px;
+    }
+    html {
+    /* Set background color for desktop */
+        background-image: url("../images/boattexture.jpg");
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color:#5677c3; 
+        background-blend-mode: soft-light;
+        height: 100vh;
+        margin: 0;	
+    }
+    header {
+        width: 100%;	
+        max-width: 1200px;
+        background-color:#967867; 
+        border: 2px solid #732d02;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;	
+    }
+    figure figcaption {
+        text-align: center;	
+    }
+    figure figcaption alt {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;	
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;	
+    }
+    body { 
+        width: 100%;	
+        max-width: 1290px;
+        background-color:#5bbac4; 
+        border: 20px solid #967867;
+        background-blend-mode: soft-light;
+        margin: 0 auto;
+        box-sizing: border-box;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+        margin: 0 auto;
+        padding: 50px;
+        text-align: left;	
+    }
+    .container{
+        width: 100%;	
+        max-width: 1200px;
+        background-color:#5bbac4; 
+        /* border: 10px solid #732d02; */
+        background-blend-mode: soft-light;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    figure figcaption {
+        text-align: center;	
+    }
+    figure figcaption alt {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;	
+    }
+    img {
+        max-width: 100%;
+	height: auto;
+	border: 5px solid #732d02;	
+    }
+    nav { 
+        padding: 5px;
+        text-align: center; 
+    }	
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        margin: 0;
+	flex-wrap: wrap;
+    }
+    nav li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 5px;
+        margin: 0 15px;
+        font-size: 1em;
+    }
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #0713c0;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    } 
+    footer {
+    /* Footer styles */
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
+        padding: 20px;
+        text-align: center; 
+        margin-top: 90px;
+        background-color:#967867; 
+        border: 2px solid #732d02;
+    }
+    footer a {
+        font-size: 1em;
+        text-align: center; 
+        margin: 0; 
+        padding: 0px;
+    }
