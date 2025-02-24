@@ -84,9 +84,7 @@ img {
 nav { 
     padding: 5px;
     text-align: center; 
-    display: block;
-    unicode-bidi: isolate;	
-}
+}	
 
 nav ul {
     list-style-type: none;
@@ -111,9 +109,9 @@ a:hover {
 	color: #0713c0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
 	text-align: center;
-}
+} */
 footer {
 /* Footer styles */
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
@@ -154,7 +152,7 @@ footer a {
   }
 
   nav ul {
-    flex-direction: column; /* Stack navigation items vertically */
+    flex-direction: row; /* Stack navigation items vertically */
     align-items: center;     /* Center items */
     width: 100%;             /* Ensure the nav takes up full width */
   }
@@ -176,6 +174,7 @@ footer a {
 
     h1, h2, h3, h4, h5, h6 {
       font-size: 1.2em; /* Adjust heading sizes */
+      text-align: center;
     }
   }
 }
