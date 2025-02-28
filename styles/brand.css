@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 header {
     width: 100%;
     max-width: 1200px;
@@ -51,12 +47,11 @@ blockquote {
 
 img {
     display: flex;
-    width: 500px;
-    height: 500px;
     object-fit: cover;
     float: right;
     margin-top: -50px;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 main {
