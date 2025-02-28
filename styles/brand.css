@@ -1,39 +1,25 @@
-html body {
-    font-family: "Helvetice Neue", Arial, "Segor UI", sans-serif;
-}
-html {
-    background-image: url("../images/joaslogo3.png"); 
-    background-color: #A4AF69;
-    background-size: 400px 350px; 
-    background-position: right;
-    background-repeat: no-repeat;
-    
-    height: 100vh;
-    margin: 0;
-}
-body {
-    color: #4C2719;
-    box-sizing: border-box;
-    font-size: 20px;
-}
 header {
-    width: 100%;	
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center; 
-	margin-top: 5px;
-	
+    margin-top: 5px;
 }
-main {
-    position: absolute;
-    bottom: 0, auto;
-    left: 0;
-    padding-left: 30px;	
+
+body {
+    background-color: #A4AF69;
+    color: #4C2719;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", "Arial", "Montserrat", sans-serif;
+    font-size: 1.2em;
+    
 }
+
 nav { 
     padding: 5px;
     text-align: center; 
 }
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -41,56 +27,87 @@ nav ul {
     justify-content: center;
     padding: 10px;
     margin: 0;
+    flex-wrap: wrap;
 }
+
 nav li {
     display: inline-block;
     list-style-type: none;
     padding: 5px;
     margin: 0 15px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
-a {
-	color: #4C2719;
-}
-a:hover {
-	color: #F17105;
-}
-a:focus {
-	outline: thin dotted;
-}
-h1 {
-	text-align: center;
-    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-}
-h2 {
-    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-}
-h3 {
-    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-}
-h4 {
-    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-}
+
 blockquote {
 	font-size: 1.5rem;
 	font-style: italic;
-	border-bottom: 5px solid #F17105;
-	margin: 10px;
-	box-shadow: 4px 4px 15px #F17105;
+	margin: 5px;
     text-align: center;
 }
-footer {
-/* Footer styles */
-    font-size: 13px;
-    padding: 1px;
-    text-align: center; 
-	margin-top: 650px;
-    background-color: #EDE580; 
-    
+
+img {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-top: -50px;
+    padding-right: 50px;	
+    flex-wrap: wrap;
 }
+
+main {
+    padding-left: 35px;	
+    text-align: left;
+    margin: 5px;
+    bottom: 0;
+    border-radius: 1%;
+    border: 2px solid #EDE580;
+}
+
+a {
+	color: #4C2719;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #F17105;
+}
+
+h1 {
+	text-align: center;
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+    color:#EDE580;
+    background-color: #4C2719;
+    border-radius: 10%;
+    width: 100%; /* Makes the background color span the full width */
+    margin: 5px; /* Ensures there is no margin preventing full-width */
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+
+h3 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+
+h4 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+
+
+footer {
+    /* Footer styles */
+        padding: 1px;
+        text-align: center; 
+        margin: 5px; 
+}    
+
 footer a {
 	font-size: 1.2em;
 	text-align: center; 
 	margin: 0; 
     padding: 0;
 }
+
