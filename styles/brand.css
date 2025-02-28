@@ -49,6 +49,7 @@ img {
     display: flex;
     width: 500px;
     height: 500px;
+    object-fit: cover;
     float: right;
     margin-top: -50px;
     padding-right: 50px;	
