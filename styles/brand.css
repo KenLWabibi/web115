@@ -103,14 +103,14 @@ h4 {
 
 footer {
     /* Footer styles */
-        padding: 1px;
-        text-align: center; 
-        margin: 5px; 
+    padding: 1px;
+    text-align: center; 
+    margin: 5px; 
 }    
 
 footer a {
-	font-size: 1.2em;
-	text-align: center; 
-	margin: 0; 
+    font-size: 1.2em;
+    text-align: center; 
+    margin: 0; 
     padding: 0;
 }
