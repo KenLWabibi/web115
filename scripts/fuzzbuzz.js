@@ -28,7 +28,7 @@ document.getElementById('name-form').addEventListener('submit', function (event)
     "Behind Scenes",
     "Listener Q&A",
     "Episode Highlights",
-    "Personal Stories",
+    "Personal Stories"
   ];
 
   for (let i = 1; i <= counter; i++) {
