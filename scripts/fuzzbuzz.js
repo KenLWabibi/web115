@@ -24,14 +24,11 @@ document.getElementById('name-form').addEventListener('submit', function (event)
   wordList.innerHTML = "";
 
   const topics = [
-    "Creator Interviews",
-    "Behind Scenes",
-    "Indie Games",
-    "Tech Trends",
-    "Latest Trends in Technology",
     "Famous Collaborations",
+    "Behind Scenes",
+    "Listener Q&A",
     "Episode Highlights",
-    "Listener Q&A"
+    "Personal Stories",
   ];
 
   for (let i = 1; i <= counter; i++) {
