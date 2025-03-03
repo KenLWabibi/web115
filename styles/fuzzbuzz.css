@@ -187,25 +187,3 @@ footer a {
     padding: 0;
 }
 
-/* Responsive Design for Larger Screens */
-@media (min-width: 600px) {
-    form {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    input {
-        width: auto;
-        max-width: 600px; /* Limits input width on larger screens */
-    }
-
-    button {
-        width: 50%; /* Adjusts the button width */
-    }
-}
-
-@media (min-width: 1200px) {
-    button {
-        max-width: 300px; /* Adjust max-width on larger screens */
-    }
-}
