@@ -1,3 +1,11 @@
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
 body {
     background-color: #A4AF69;
     color: #4C2719;
@@ -16,7 +24,7 @@ main {
     border-radius: 1%;
     border: 2px solid #EDE580;
     box-sizing: border-box;
-    max-width: 900px;
+    margin-top: 15px;
 }
 
 /* Links */
@@ -27,6 +35,10 @@ a {
 
 a:hover {
     color: #F17105;
+}
+
+a:focus {
+    outline: 3px solid #F17105; /* Added focus state */
 }
 
 /* Navigation */
@@ -56,7 +68,7 @@ nav li {
 blockquote {
     font-size: 1.5rem;
     font-style: italic;
-    margin: 5px;
+    margin: 10px auto; /* Increased margin for better separation */
     text-align: center;
 }
 
@@ -83,7 +95,7 @@ h3 {
     font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
     font-size: 1.6rem;
     text-align: center;
-    color: #EDE580;
+    color:#f9f9f9;
 }
 
 /* Form Styling */
@@ -93,7 +105,8 @@ form {
     gap: 15px;
     margin-top: 20px;
     margin: 0 auto; /* This centers the form */
-    width: 100%;
+    width: 90%; /* Adjusted form width */
+    max-width: 800px; /* Optional: limits the form width */
     align-items: center; /* Aligns the form elements to the left */
 }
 
@@ -102,19 +115,18 @@ label {
     font-size: 1.1rem;
     font-weight: bold;
     color: #4C2719;
-    width: 73%; 
+    width: 73%;
     align-items: center;
 }
 
 /* Input Field Styling */
 input[type="text"] {
-    box-sizing: border-box;
     padding: 12px;
     font-size: 1rem;
     border: 2px solid #EDE580;
     border-radius: 5px;
     background-color: #f9f9f9;
-    width: 70%; 
+    width: 70%;
     transition: border-color 0.3s ease;
 }
 
@@ -126,7 +138,6 @@ input[type="text"]:focus {
 
 /* Button Styling */
 button {
-    box-sizing: border-box;
     padding: 12px 20px;
     font-size: 1.1rem;
     background-color: #4C2719;
@@ -146,11 +157,16 @@ button:hover {
     background-color: #F17105;
 }
 
+button:focus {
+    outline: 3px solid #F17105; /* Added focus state */
+}
+
 /* Footer */
 footer {
     font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
     padding: 1px;
     text-align: center;
+    margin-top: 20px; /* Adjusted footer margin */
     margin: 0;
     background-color: #4C2719;
     color: #EDE580;
@@ -162,4 +178,27 @@ footer a {
     color: #A4AF69;
     margin: 0;
     padding: 0;
+}
+
+/* Responsive Design for Larger Screens */
+@media (min-width: 600px) {
+    form {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    input {
+        width: auto;
+        max-width: 600px; /* Limits input width on larger screens */
+    }
+
+    button {
+        width: 50%; /* Adjusts the button width */
+    }
+}
+
+@media (min-width: 1200px) {
+    button {
+        max-width: 300px; /* Adjust max-width on larger screens */
+    }
 }
