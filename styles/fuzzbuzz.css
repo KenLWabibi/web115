@@ -163,6 +163,10 @@ button:focus {
     outline: 3px solid #F17105; /* Added focus state */
 }
 
+ol {
+    text-align: center;
+}
+
 /* Footer */
 footer {
     font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
