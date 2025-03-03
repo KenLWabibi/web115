@@ -1,6 +1,6 @@
 /* =============================================
 	Author: ken Wabibi 
-	Date: 18Jan24
+	Date: 02Mar25
    =============================================
 */
 
@@ -8,28 +8,23 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center; 
     margin-top: 5px;
 }
 
-/* Body */
 body {
     background-color: #A4AF69;
     color: #4C2719;
     box-sizing: border-box;
     font-family: "Helvetica Neue", "Arial", "Montserrat", sans-serif;
     font-size: 1.2em;
-    padding: 5px; /* Remove padding on body, it may conflict with other elements */
-    margin: 0; /* Remove default body margin */
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensure body takes at least full height */
+    
+    
 }
 
-/* Navigation */
-nav {
+nav { 
     padding: 5px;
-    text-align: center;
+    text-align: center; 
 }
 
 nav ul {
@@ -44,28 +39,28 @@ nav ul {
 
 nav li {
     display: inline-block;
+    list-style-type: none;
     padding: 5px;
     margin: 0 15px;
     font-size: 1em;
 }
 
-/* Blockquote */
 blockquote {
-    font-size: 1.5rem;
-    font-style: italic;
-    margin: 5px;
+	font-size: 1.5rem;
+	font-style: italic;
+	margin: 5px;
     text-align: center;
 }
 
-/* Image */
 img {
-    width: 300px;             /* Example: set width to 300px */
-    height: auto;
-    display: block;        /* Makes the image a block element (removes extra space below the image) */
-    margin: 0 auto;
+    display: flex;
+    object-fit: cover;
+    float: right;
+    margin-top: -50px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
-/* Main content */
 main {
     flex-grow: 1; /* Ensures main content takes available space */
     padding: 35px;
@@ -77,36 +72,38 @@ main {
     border: 2px solid #EDE580;
 }
 
-/* Links */
 a {
-    color: #4C2719;
+	color: #4C2719;
     text-decoration: none;
 }
 
 a:hover {
-    color: #F17105;
+	color: #F17105;
 }
 
-p a {
-    color:#F2E9E4;
-}
-
-/* Headings */
 h1 {
-    text-align: center;
+	text-align: center;
     font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-    color: #EDE580;
+    color:#EDE580;
     background-color: #4C2719;
     border-radius: 10%;
-    width: 100%;
-    margin: 5px;
+    width: 100%; /* Makes the background color span the full width */
+    margin: 5px; /* Ensures there is no margin preventing full-width */
     padding: 20px 0;
 }
 
-h2, h3, h4 {
+h2 {
     font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
-    text-align: center;
 }
+
+h3 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+
+h4 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+
 
 /* Footer */
 footer {
