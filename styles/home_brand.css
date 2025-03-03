@@ -1,0 +1,127 @@
+/* =============================================
+	Author: ken Wabibi 
+	Date: 02MAR24
+   =============================================
+*/
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Body */
+body {
+    background-color: #A4AF69;
+    color: #4C2719;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", "Arial", "Montserrat", sans-serif;
+    font-size: 1.2em;
+    padding: 5px; /* Remove padding on body, it may conflict with other elements */
+    margin: 0; /* Remove default body margin */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes at least full height */
+}
+
+/* Navigation */
+nav {
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+/* Blockquote */
+blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Image */
+img {
+    width: 300px;             /* Example: set width to 300px */
+    height: auto;
+    display: block;        /* Makes the image a block element (removes extra space below the image) */
+    margin: 0 auto;
+}
+
+/* Main content */
+main {
+    flex-grow: 1; /* Ensures main content takes available space */
+    padding: 35px;
+    padding-top: 5px;
+    padding-bottom: 20px; /* Reduced padding to avoid pushing footer off screen */
+    text-align: left;
+    margin: 0 auto;
+    border-radius: 1%;
+    border: 2px solid #EDE580;
+}
+
+/* Links */
+a {
+    color: #4C2719;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F17105;
+}
+
+p a {
+    color:#F2E9E4;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+    color: #EDE580;
+    background-color: #4C2719;
+    border-radius: 10%;
+    width: 100%;
+    margin: 5px;
+    padding: 20px 0;
+}
+
+h2, h3, h4 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+    padding: 1px;
+    text-align: center;
+    margin: 0;
+    background-color: #4C2719;
+    color: #EDE580;
+}
+
+footer a {
+    font-size: 18px;
+    text-align: center;
+    color: #A4AF69;
+    margin: 0;
+    padding: 0;
+}
