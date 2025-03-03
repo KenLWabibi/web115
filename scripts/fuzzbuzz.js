@@ -24,10 +24,10 @@ document.getElementById('name-form').addEventListener('submit', function (event)
   wordList.innerHTML = "";
 
   const topics = [
-    "Interviews with Creators",
-    "Behind the Scenes Stories",
-    "Gaming Culture Discussions",
-    "The Best Indie Games",
+    "Creator Interviews",
+    "Behind Scenes",
+    "Indie Games",
+    "Tech Trends",
     "Latest Trends in Technology",
     "Famous Collaborations",
     "Episode Highlights",
