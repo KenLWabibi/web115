@@ -108,6 +108,7 @@ label {
 
 /* Input Field Styling */
 input[type="text"] {
+    box-sizing: border-box;
     padding: 12px;
     font-size: 1rem;
     border: 2px solid #EDE580;
@@ -125,6 +126,7 @@ input[type="text"]:focus {
 
 /* Button Styling */
 button {
+    box-sizing: border-box;
     padding: 12px 20px;
     font-size: 1.1rem;
     background-color: #4C2719;
