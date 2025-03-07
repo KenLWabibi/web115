@@ -97,6 +97,10 @@ a:hover {
 }
 
 p a {
+    color: #F17105;
+}
+
+p a:hover {
     color:#F2E9E4;
 }
 
