@@ -193,10 +193,12 @@ footer {
     font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
     padding: 1px;
     text-align: center;
-    margin-top: 20px; /* Adjusted footer margin */
     margin: 0;
     background-color: #4C2719;
     color: #EDE580;
+    border-radius: 10%;
+    width: 100%;
+    box-sizing: border-box
 }
 
 footer a {
