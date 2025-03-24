@@ -1,9 +1,23 @@
-header {
-    width: 100%;
-    max-width: 1200px;
+html{
+    width: 90%;
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+header {
     text-align: center;
-    margin-top: 5px;
+    position: relative;
+    z-index: 1; /* Ensures header stays on top of the img */
+}
+
+/* Logo Image */
+header img {
+    position: absolute;
+    top: 25px;  /* Distance from the top */
+    left: -320px;  /* Move the image to the left outside of the max-width container */
+    width: 250px;  /* Adjust the logo size */
+    height: auto;
+    z-index: 2;  /* Ensure the image appears on top of other content */
 }
 
 body {
