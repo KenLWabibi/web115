@@ -226,7 +226,8 @@ footer a {
     position: relative;
     top: 100%;
     left: 0;
-    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0;
 }
 
@@ -235,3 +236,7 @@ footer a {
     padding-left: 40px; /* Indent the text and bullet point */
     margin-left: 0;  /* Optional, to reset existing margins */
 }
+
+
+
+
