@@ -235,15 +235,3 @@ footer a {
     padding-left: 40px; /* Indent the text and bullet point */
     margin-left: 0;  /* Optional, to reset existing margins */
 }
-}
-
-.main-list li a {
-    display: block;
-    padding: 0px;
-    text-decoration: none;
-}
-
-.main-list li a:hover {
-    background-color: #eee;
-}
-
