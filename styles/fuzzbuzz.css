@@ -182,8 +182,12 @@ button:focus {
 }
 
 ol {
-    text-align: left;
+    text-align: center;
 }
+
+#word-list {
+  text-align: left; /* Align text to the left */
+  white-space: pre-line; /* Ensure newlines in text are respected */
 
 /* Footer */
 footer {
