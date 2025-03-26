@@ -181,6 +181,10 @@ button:focus {
     outline: 3px solid #F17105; /* Added focus state */
 }
 
+ol {
+    margin: 5px;    
+}
+
 #word-list {
   text-align: left; /* Align text to the left */
   white-space: pre-line; /* Ensure newlines in text are respected */
