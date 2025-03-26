@@ -157,6 +157,11 @@ footer a {
     font-weight: bolder;
 }
 
+footer p a {
+    text-decoration-line: underline;
+    color:#F17105;
+}
+
 /* Media Queries for Small Screens */
 @media screen and (max-width: 768px) {
     /* Adjust the main width and margins */
