@@ -97,6 +97,11 @@ a:hover {
 }
 
 p a:hover {
+    color:#F17105;
+}
+
+footer p a {
+    text-decoration-line: underline;
     color:#F2E9E4;
 }
 
