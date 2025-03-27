@@ -58,6 +58,15 @@ a:focus {
     outline: 3px solid #F17105; /* Added focus state */
 }
 
+p a:hover {
+    color:#F17105;
+}
+
+footer p a {
+    text-decoration-line: underline;
+    color:#F2E9E4;
+}
+
 /* Navigation */
 nav {
     padding: 5px;
