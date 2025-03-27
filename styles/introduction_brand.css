@@ -110,11 +110,12 @@ a {
     font-weight: bolder;
 }
 
-a:hover {
-    color: #F17105;
+p a:hover {
+    color:#F17105;
 }
 
-p a:hover {
+footer p a {
+    text-decoration-line: underline;
     color:#F2E9E4;
 }
 
