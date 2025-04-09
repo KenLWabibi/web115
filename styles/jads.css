@@ -193,6 +193,7 @@ footer p a {
     /* Further adjustments for very small screens (phones) */
     body {
         font-size: 1em;
+        min-height: 75vh;
     }
 
     header img {
