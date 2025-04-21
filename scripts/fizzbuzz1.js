@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let lineText = "";
 
       if (i % 3 === 0 && i % 5 === 0) {
-        lineText += "Shout Out Videos! Behind Scenes Videos!";
+        lineText += "Shout Out and Behind Scenes Videos!";
       } else if (i % 3 === 0) {
         lineText += "Shout Out Videos!";
       } else if (i % 5 === 0) {
