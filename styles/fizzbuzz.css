@@ -222,6 +222,10 @@ input[type="text"] {
   text-align: left; /* Align text to the left */
 }
 
+#word-list li {
+  margin-bottom: 10px; /* space between each line */
+}
+
 /* Input Focus Styling */
 input[type="text"]:focus {
     border-color: #F17105;
