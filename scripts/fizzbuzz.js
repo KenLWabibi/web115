@@ -1,17 +1,18 @@
 document.getElementById('name-form').addEventListener('submit', function (event) {
   event.preventDefault();
 
-  const firstName = document.getElementById('first-name').value;
-  const middleInitial = document.getElementById('middle-initial').value;
-  const lastName = document.getElementById('last-name').value;
+  const firstName = document.getElementById('first-name').value.trim();
+  const middleInitialRaw = document.getElementById('middle-initial').value.trim();
+  const lastName = document.getElementById('last-name').value.trim();
 
   let fullName = firstName;
-  if (middleInitial) {
-    fullName += ` ${middleInitial}.`;
+  if (middleInitialRaw) {
+    fullName += ` ${middleInitialRaw}.`;
   }
   fullName += ` ${lastName}`;
 
-  document.getElementById('greeting').textContent = `Welcome to Jack of All Spade Podcast, ${fullName}!`;
+  document.getElementById('greeting').textContent =
+    `Welcome to Jack of All Spade Podcast, ${fullName}!`;
 
   const counter = parseInt(prompt(`How many episodes would you like to explore, ${firstName}?`));
 
