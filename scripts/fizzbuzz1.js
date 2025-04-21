@@ -3,28 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const greeting = document.getElementById('greeting');
   const wordList = document.getElementById('word-list');
 
-  form.addEventListener('submit', function (event) {
-    event.preventDefault();
-
-    const firstName = document.getElementById('first-name').value.trim();
-    const middleInitial = document.getElementById('middle-initial').value.trim();
-    const lastName = document.getElementById('last-name').value.trim();
-
-    let fullName = firstName;
-    if (middleInitial) {
-      fullName += ` ${middleInitial}.`;
-    }
-    fullName += ` ${lastName}`;
-
-    greeting.textContent = `Welcome to Jack of All Spades Podcast, ${fullName}!`;
-    wordList.innerHTML = "";
-
-    loadFizzBuzz();
-  });
-
-  
   const loadFizzBuzz = () => {
-    form.style.display = 'none'; 
+    form.style.display = 'none';
     wordList.innerHTML = "";
 
     const defaultWord = "New Podcast Episode";
@@ -48,6 +28,26 @@ document.addEventListener("DOMContentLoaded", () => {
       wordList.appendChild(listItem);
     }
   };
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const firstName = document.getElementById('first-name').value.trim();
+    const middleInitial = document.getElementById('middle-initial').value.trim();
+    const lastName = document.getElementById('last-name').value.trim();
+
+    let fullName = firstName;
+    if (middleInitial) {
+      fullName += ` ${middleInitial}.`;
+    }
+    fullName += ` ${lastName}`;
+
+    greeting.textContent = `Welcome to Jack of All Spades Podcast, ${fullName}!`;
+    wordList.innerHTML = "";
+
+    loadFizzBuzz();
+  });
 });
+
 
   
