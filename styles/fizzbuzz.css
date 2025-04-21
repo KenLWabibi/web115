@@ -220,7 +220,6 @@ input[type="text"] {
 
 #word-list {
   text-align: left; /* Align text to the left */
-  list-style-type: none; /* Optional: remove bullet points if using <ul> */
   padding-left: 0; /* Remove default padding for <ul> or <ol> */
   margin: 0; /* Remove default margin */
 }
