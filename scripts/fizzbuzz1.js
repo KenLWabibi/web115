@@ -4,14 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const wordList = document.getElementById('word-list');
 
   const loadFizzBuzz = () => {
-    form.style.display = 'none';
     wordList.innerHTML = "";
 
     const defaultWord = "New Podcast Episode";
     const maxCount = 140;
 
     for (let i = 1; i <= maxCount; i++) {
-      let lineText = `${i}. `;
+      let lineText = "";
 
       if (i % 3 === 0 && i % 5 === 0) {
         lineText += "Shout Out Videos! Behind Scenes Videos!";
