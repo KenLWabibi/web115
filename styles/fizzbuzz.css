@@ -218,6 +218,13 @@ input[type="text"] {
     transition: border-color 0.3s ease;
 }
 
+#word-list {
+  text-align: left; /* Align text to the left */
+  list-style-type: none; /* Optional: remove bullet points if using <ul> */
+  padding-left: 0; /* Remove default padding for <ul> or <ol> */
+  margin: 0; /* Remove default margin */
+}
+
 /* Input Focus Styling */
 input[type="text"]:focus {
     border-color: #F17105;
