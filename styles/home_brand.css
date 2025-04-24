@@ -13,7 +13,6 @@ html{
 header {
     position: relative;
     overflow: hidden;
-    padding-left: 140px; /* Space for logo */
 }
 
 /* Logo Image */
