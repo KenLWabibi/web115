@@ -17,7 +17,7 @@ header {
 
 /* Logo Image */
 .logo {
-    float: left;
+    left: -320px;
     margin: 0 20px 0 0;
     height: 128px;
     width: 128px;
