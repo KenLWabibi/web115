@@ -5,8 +5,8 @@
 */
 
 html{
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -17,13 +17,11 @@ header {
 }
 
 /* Logo Image */
-header img {
-    position: absolute;
-    top: 25px;  /* Distance from the top */
-    left: -320px;  /* Move the image to the left outside of the max-width container */
-    width: 250px;  /* Adjust the logo size */
-    height: auto;
-    z-index: 2;  /* Ensure the image appears on top of other content */
+.logo {
+  border: none;
+  position: absolute;
+  left: 2rem;
+  bottom: 3rem;
 }
 
 /* Body */
