@@ -5,12 +5,6 @@
 */
 
 
-html{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 header {
     text-align: center;
     position: relative;
@@ -52,10 +46,12 @@ body {
     font-family: "Helvetica Neue", "Arial", "Montserrat", sans-serif;
     font-size: 1.2em;
     padding: 5px; /* Remove padding on body, it may conflict with other elements */
-    margin: 0; /* Remove default body margin */
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure body takes at least full height */
+    min-height: 100vh; /* Ensure body takes at least full height */	
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Navigation */
