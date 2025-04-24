@@ -11,17 +11,17 @@ html{
 }
 
 header {
-    text-align: center;
     position: relative;
-    z-index: 1; /* Ensures header stays on top of the img */
+    overflow: hidden;
+    padding-left: 140px; /* Space for logo */
 }
 
 /* Logo Image */
 .logo {
-  border: none;
-  position: absolute;
-  left: 2rem;
-  bottom: 3rem;
+    float: left;
+    margin: 0 20px 0 0;
+    height: 128px;
+    width: 128px;
 }
 
 /* Body */
