@@ -193,7 +193,7 @@ button:focus {
 }
 
 /* List Styling */
-ul#word-list {
+#word-list {
     list-style-type: none;
     padding: 0;
     margin: 20px auto;
@@ -201,7 +201,7 @@ ul#word-list {
     max-width: 800px;
 }
 
-ul#word-list li {
+#word-list li {
     padding: 8px 12px;
     border-bottom: 1px solid #EDE580;
     font-weight: 500;
