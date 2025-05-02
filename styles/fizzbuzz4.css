@@ -1,0 +1,229 @@
+html {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+header img {
+    position: absolute;
+    top: 25px;
+    left: -260px;
+    width: 250px;
+    height: auto;
+    z-index: 2;
+}
+
+body {
+    background-color: #A4AF69;
+    color: #4c3119;
+    font-family: "Helvetica Neue", "Arial", "Montserrat", sans-serif;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    padding: 35px 20px 20px;
+    text-align: left;
+    margin: 0 auto;
+    border-radius: 1%;
+    border: 2px solid #EDE580;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+a {
+    color: #4C2719;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #F17105;
+}
+
+a:focus {
+    outline: 3px solid #F17105;
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 5px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+    color: #EDE580;
+    background-color: #4C2719;
+    border-radius: 10%;
+    width: 100%;
+    margin: 5px;
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #4C2719;
+}
+
+h3, h4 {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #4C2719;
+}
+
+/* ========== FORM LAYOUT ========== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    align-items: center;
+}
+
+/* Container for all forms - arrange forms side by side */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Each form box */
+#name-form, #divisor-form, #word-form {
+    flex: 1 1 30%; /* Ensures the forms take equal width and wrap if necessary */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Label and inputs */
+label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #4C2719;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #EDE580;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 200px;
+    max-width: 50%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    margin-left: 25px;
+}
+
+/* Input Focus Styling */
+input:focus {
+    border-color: #F17105;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color: #4C2719;
+    color: #EDE580;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #F17105;
+}
+
+button:focus {
+    outline: 3px solid #F17105;
+}
+
+/* List Styling */
+ul#word-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+ul#word-list li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #EDE580;
+    font-weight: 500;
+    text-align: center;
+    background-color: #fdfdf2;
+}
+
+/* Footer */
+footer {
+    font-family: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+    padding: 1px;
+    text-align: center;
+    margin: 0;
+    background-color: #4C2719;
+    color: #EDE580;
+    border-radius: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer a {
+    font-size: 18px;
+    color: #A4AF69;
+    font-weight: bolder;
+}
