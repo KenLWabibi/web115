@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1"> 
+    <title>Jack Of All Spades Podcast ♠️ Fizz Buzz 4</title>
+    <link href="styles/fizzbuzz4.css" rel="stylesheet">
+    <link rel="icon" type="favicon/png" href="images/favicon.ico">
+    <script src="scripts/fizzbuzz4.js" defer></script>
+    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h2>Fuzz Buzz 4</h2>
+        <h3 id="greeting">Welcome to Fuzz Buzz</h3>
+        <P>Choose 3 distinct words as your output, then select 3 different numbers to divide by. You can type in a default word or leave it blank.</P>
+        <!-- User Information Form -->
+        <div class="form-container">
+            <form id="name-form">
+                <div class="form-section">
+                    <h4>User Information</h4>
+                    <label>First Name:
+                        <input type="text" id="first-name" required>
+                    </label>
+                    <label>Middle Initial:
+                        <input type="text" id="middle-initial">
+                    </label>
+                    <label>Last Name:
+                        <input type="text" id="last-name" required>
+                    </label>
+                </div>
+            </form>
+
+            <!-- Word Form -->
+            <form id="word-form">
+                <div class="form-section">
+                    <h4>Word Settings</h4>
+                    <label>Word 1:
+                        <input type="text" id="word-1" value="Fizz" required>
+                    </label>
+                    <label>Word 2:
+                        <input type="text" id="word-2" value="Buzz" required>
+                    </label>
+                    <label>Word 3:
+                        <input type="text" id="word-3" value="BANG" required>
+                    </label>
+                    <label>Default Word:
+                        <input type="text" id="default-word" value="">
+                    </label>
+                    <label>Total Count:
+                        <input type="number" id="total-count" value="125" required>
+                    </label>
+                    
+                </div>
+            </form>
+
+            <!-- Divisor Form -->
+            <form id="divisor-form">
+                <div class="form-section">
+                    <h4>Divisor Settings</h4>
+                    <label>Divisor 1:
+                        <input type="number" id="divisor-1" value="3" required>
+                    </label>
+                    <label>Divisor 2:
+                        <input type="number" id="divisor-2" value="5" required>
+                    </label>
+                    <label>Divisor 3:
+                        <input type="number" id="divisor-3" value="7" required>
+                    </label>
+                </div>
+            </form>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        <h2 id="greeting"></h2>
+        <ul id="word-list"></ul>   
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>
