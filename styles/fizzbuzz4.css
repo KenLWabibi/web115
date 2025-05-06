@@ -154,23 +154,39 @@ form {
     align-items: center;
 }
 
-/* Container for all forms - arrange forms side by side */
+/* Container for the form */
 .form-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-/* Each form box */
-#name-form, #divisor-form, #word-form {
-    flex: 1 1 30%; /* Ensures the forms take equal width and wrap if necessary */
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+/* Each form section (user info, word settings, etc.) */
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
 }
+
+/* Label styling: keep labels readable and inline */
+.form-section label {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 30%;
+  min-width: 200px;
+}
+
+/* Inputs full width inside label */
+.form-section input {
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 /* Label and inputs */
 label {
