@@ -214,7 +214,7 @@ input[type="text"] {
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #f9f9f9;
-    width: 70%;
+    width: 100%;
     transition: border-color 0.3s ease;
 }
 
