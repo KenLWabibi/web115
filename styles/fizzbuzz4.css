@@ -128,14 +128,6 @@ form {
     margin-bottom: 20px;
 }
 
-/* Each form box */
-#name-form, #divisor-form, #word-form {
-    flex: 1 1 30%; /* Ensures the forms take equal width and wrap if necessary */
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
 /* Label and inputs */
 label {
     font-size: 1.1rem;
