@@ -263,3 +263,8 @@ footer a {
     color: #A4AF69;
     font-weight: bolder;
 }
+
+footer p a {
+    text-decoration-line: underline;
+    color:#F2E9E4;   
+}
