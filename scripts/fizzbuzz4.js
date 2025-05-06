@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById('name-form');
+  const form = document.getElementById('fuzzbuzz-form');
   const greeting = document.getElementById('greeting');
   const wordList = document.getElementById('word-list');
 
