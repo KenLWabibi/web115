@@ -193,14 +193,6 @@ ul#word-list {
     max-width: 800px;
 }
 
-ul#word-list li {
-    padding: 8px 12px;
-    border-bottom: 1px solid #EDE580;
-    font-weight: 500;
-    text-align: center;
-    background-color: #fdfdf2;
-}
-
 /* Dropdown Styles */
 .dropdown {
     position: relative; /* Make sure the dropdown menu positions correctly */
