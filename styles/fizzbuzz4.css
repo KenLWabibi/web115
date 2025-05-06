@@ -75,42 +75,6 @@ nav li {
     font-size: 1em;
 }
 
-/* Dropdown Styles */
-.dropdown {
-    position: relative; /* Make sure the dropdown menu positions correctly */
-}
-
-.dropbtn {
-    cursor: pointer;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 160px;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.dropdown-content a:hover {
-    background-color: #444;
-}
-
-/* Show dropdown on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
 blockquote {
     font-size: 1.5rem;
     font-style: italic;
@@ -154,56 +118,22 @@ form {
     align-items: center;
 }
 
-/* Container for the 3 sections across the page */
+/* Container for all forms - arrange forms side by side */
 .form-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-/* Each form section: left, center, right */
-.form-section {
-  flex: 1;
-  min-width: 300px;
-  background-color: #f9f9f9;
-  padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-}
-
-/* Labels and inputs inside each section should be stacked vertically */
-.form-section label {
-  display: block;
-  margin-bottom: 0.75rem;
-}
-
-.form-section input {
-  padding: 0.4rem;
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-/* Submit button centered below the sections */
-button[type="submit"] {
-  margin: 2rem auto;
-  display: block;
-  padding: 0.6rem 1.5rem;
-  font-size: 1rem;
-  background-color: #222;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+/* Each form box */
+#name-form, #divisor-form, #word-form {
+    flex: 1 1 30%; /* Ensures the forms take equal width and wrap if necessary */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 /* Label and inputs */
@@ -263,7 +193,7 @@ button:focus {
 }
 
 /* List Styling */
-#word-list {
+ul#word-list {
     list-style-type: none;
     padding: 0;
     margin: 20px auto;
@@ -271,7 +201,7 @@ button:focus {
     max-width: 800px;
 }
 
-#word-list li {
+ul#word-list li {
     padding: 8px 12px;
     border-bottom: 1px solid #EDE580;
     font-weight: 500;
@@ -297,6 +227,7 @@ footer a {
     color: #A4AF69;
     font-weight: bolder;
 }
+
 
 footer p a {
     text-decoration-line: underline;
