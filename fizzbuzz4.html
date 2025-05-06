@@ -15,10 +15,12 @@
     <main>
         <h2>Fuzz Buzz 4</h2>
         <h3 id="greeting">Welcome to Fuzz Buzz</h3>
-        <P>Choose 3 distinct words as your output, then select 3 different numbers to divide by. You can type in a default word or leave it blank.</P>
-        <!-- User Information Form -->
+        <p>Choose 3 distinct words as your output, then select 3 different numbers to divide by. You can type in a default word or leave it blank.</p>
+
+        <!-- Combined Form -->
         <div class="form-container">
-            <form id="name-form">
+            <form id="fuzzbuzz-form">
+                <!-- User Information -->
                 <div class="form-section">
                     <h4>User Information</h4>
                     <label>First Name:
@@ -31,10 +33,8 @@
                         <input type="text" id="last-name" required>
                     </label>
                 </div>
-            </form>
 
-            <!-- Word Form -->
-            <form id="word-form">
+                <!-- Word Settings -->
                 <div class="form-section">
                     <h4>Word Settings</h4>
                     <label>Word 1:
@@ -52,12 +52,9 @@
                     <label>Total Count:
                         <input type="number" id="total-count" value="125" required>
                     </label>
-                    
                 </div>
-            </form>
 
-            <!-- Divisor Form -->
-            <form id="divisor-form">
+                <!-- Divisor Settings -->
                 <div class="form-section">
                     <h4>Divisor Settings</h4>
                     <label>Divisor 1:
@@ -70,11 +67,15 @@
                         <input type="number" id="divisor-3" value="7" required>
                     </label>
                 </div>
+
+                <!-- Submit Button -->
+                <br>
+                <button type="submit">Submit</button>
             </form>
-            <button type="submit">Submit</button>
         </div>
-        <br>
-        <ol id="word-list"></ol> 
+
+        <h2 id="greeting"></h2>
+        <ul id="word-list"></ul>   
     </main>
     <div data-include="components/footer.html"></div>
     <script src="scripts/HTMLInclude.min.js"></script>
