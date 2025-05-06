@@ -161,24 +161,38 @@ form {
   padding: 1rem;
 }
 
-/* Each form section (user info, word settings, etc.) */
-.form-section {
+/* Container for all form sections in one row */
+.form-container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-bottom: 1.5rem;
-  align-items: center;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Label styling: keep labels readable and inline */
+/* Individual form section: left, center, right */
+.form-section {
+  flex: 1 1 30%;
+  min-width: 280px;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+/* Label + Input layout inside sections */
 .form-section label {
   display: flex;
   flex-direction: column;
-  flex: 1 1 30%;
-  min-width: 200px;
+  margin-bottom: 1rem;
 }
 
-/* Inputs full width inside label */
+/* Input styling */
 .form-section input {
   padding: 0.4rem;
   font-size: 1rem;
@@ -186,7 +200,6 @@ form {
   width: 100%;
   box-sizing: border-box;
 }
-
 
 /* Label and inputs */
 label {
@@ -283,4 +296,16 @@ footer a {
 footer p a {
     text-decoration-line: underline;
     color:#F2E9E4;   
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 900px) {
+  .form-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-section {
+    width: 100%;
+  }
 }
