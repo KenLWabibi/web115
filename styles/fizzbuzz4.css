@@ -163,6 +163,7 @@ input:focus {
 /* Button Styling */
 button {
     padding: 12px 20px;
+    box-sizing: border-box
     font-size: 1.1rem;
     background-color: #4C2719;
     color: #EDE580;
