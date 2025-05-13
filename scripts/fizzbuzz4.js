@@ -14,21 +14,21 @@ document.addEventListener("DOMContentLoaded", () => {
       let lineText = "";
 
       if (checkDivision(i, div1) && checkDivision(i, div2) && checkDivision(i, div3)) {
-        lineText += `${word1} ${word2} ${word3}`;
+        lineText = `${word1} ${word2} ${word3}`;
       } else if (checkDivision(i, div1) && checkDivision(i, div2)) {
-        lineText += `${word1} ${word2}`;
+        lineText = `${word1} ${word2}`;
       } else if (checkDivision(i, div1) && checkDivision(i, div3)) {
-        lineText += `${word1} ${word3}`;
+        lineText = `${word1} ${word3}`;
       } else if (checkDivision(i, div2) && checkDivision(i, div3)) {
-        lineText += `${word2} ${word3}`;
+        lineText = `${word2} ${word3}`;
       } else if (checkDivision(i, div1)) {
-        lineText += word1;
+        lineText = word1;
       } else if (checkDivision(i, div2)) {
-        lineText += word2;
+        lineText = word2;
       } else if (checkDivision(i, div3)) {
-        lineText += word3;
+        lineText = word3;
       } else {
-        lineText += defaultWord; // Could be blank
+        lineText = defaultWord;
       }
 
       const listItem = document.createElement("li");
@@ -40,20 +40,31 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener('submit', function (event) {
     event.preventDefault();
 
-    const firstName = document.getElementById('first-name').value.trim();
-    const middleInitial = document.getElementById('middle-initial').value.trim();
-    const lastName = document.getElementById('last-name').value.trim();
+    const {
+      ['first-name']: firstNameInput,
+      ['middle-initial']: middleInitialInput,
+      ['last-name']: lastNameInput,
+      ['word-1']: word1Input,
+      ['word-2']: word2Input,
+      ['word-3']: word3Input,
+      ['default-word']: defaultWordInput,
+      ['divisor-1']: div1Input,
+      ['divisor-2']: div2Input,
+      ['divisor-3']: div3Input,
+      ['total-count']: totalCountInput,
+    } = form.elements;
 
-    const divisor1 = parseInt(document.getElementById('divisor-1').value);
-    const divisor2 = parseInt(document.getElementById('divisor-2').value);
-    const divisor3 = parseInt(document.getElementById('divisor-3').value);
-
-    const word1 = document.getElementById('word-1').value.trim();
-    const word2 = document.getElementById('word-2').value.trim();
-    const word3 = document.getElementById('word-3').value.trim();
-
-    const total = parseInt(document.getElementById('total-count').value);
-    const defaultWord = document.getElementById('default-word').value.trim();
+    const firstName = firstNameInput.value.trim();
+    const middleInitial = middleInitialInput.value.trim();
+    const lastName = lastNameInput.value.trim();
+    const word1 = word1Input.value.trim();
+    const word2 = word2Input.value.trim();
+    const word3 = word3Input.value.trim();
+    const defaultWord = defaultWordInput.value.trim();
+    const divisor1 = parseInt(div1Input.value);
+    const divisor2 = parseInt(div2Input.value);
+    const divisor3 = parseInt(div3Input.value);
+    const total = parseInt(totalCountInput.value);
 
     let fullName = firstName;
     if (middleInitial) {
