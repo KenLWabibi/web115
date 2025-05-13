@@ -12,70 +12,73 @@
 
 <body>
     <div data-include="components/header.html"></div>
+
     <main>
         <h2>Fuzz Buzz 4</h2>
         <h3 id="greeting">Welcome to Fuzz Buzz</h3>
         <p>Choose 3 distinct words as your output, then select 3 different numbers to divide by. You can type in a default word or leave it blank.</p>
 
-        <!-- Combined Form -->
+        <!-- Unified Form with Fieldsets -->
         <div class="form-container">
-            <form id="fuzzbuzz-form">
+            <form id="fuzzbuzz-form" method="post" action="#">
                 <!-- User Information -->
-                <div class="form-section">
-                    <h4>User Information</h4>
+                <fieldset>
+                    <legend>User Information</legend>
                     <label>First Name:
-                        <input type="text" id="first-name" required>
+                        <input type="text" id="first-name" name="first-name" required>
                     </label>
                     <label>Middle Initial:
-                        <input type="text" id="middle-initial">
+                        <input type="text" id="middle-initial" name="middle-initial">
                     </label>
                     <label>Last Name:
-                        <input type="text" id="last-name" required>
+                        <input type="text" id="last-name" name="last-name" required>
                     </label>
-                </div>
+                </fieldset>
 
                 <!-- Word Settings -->
-                <div class="form-section">
-                    <h4>Word Settings</h4>
+                <fieldset>
+                    <legend>Word Settings</legend>
                     <label>Word 1:
-                        <input type="text" id="word-1" value="Fizz" required>
+                        <input type="text" id="word-1" name="word-1" value="Fizz" required>
                     </label>
                     <label>Word 2:
-                        <input type="text" id="word-2" value="Buzz" required>
+                        <input type="text" id="word-2" name="word-2" value="Buzz" required>
                     </label>
                     <label>Word 3:
-                        <input type="text" id="word-3" value="BANG" required>
+                        <input type="text" id="word-3" name="word-3" value="BANG" required>
                     </label>
                     <label>Default Word:
-                        <input type="text" id="default-word" value="">
+                        <input type="text" id="default-word" name="default-word" value="">
                     </label>
                     <label>Total Count:
-                        <input type="number" id="total-count" value="125" required>
+                        <input type="number" id="total-count" name="total-count" value="125" required>
                     </label>
-                </div>
+                </fieldset>
 
                 <!-- Divisor Settings -->
-                <div class="form-section">
-                    <h4>Divisor Settings</h4>
+                <fieldset>
+                    <legend>Divisor Settings</legend>
                     <label>Divisor 1:
-                        <input type="number" id="divisor-1" value="3" required>
+                        <input type="number" id="divisor-1" name="divisor-1" value="3" required>
                     </label>
                     <label>Divisor 2:
-                        <input type="number" id="divisor-2" value="5" required>
+                        <input type="number" id="divisor-2" name="divisor-2" value="5" required>
                     </label>
                     <label>Divisor 3:
-                        <input type="number" id="divisor-3" value="7" required>
+                        <input type="number" id="divisor-3" name="divisor-3" value="7" required>
                     </label>
-                </div>
+                </fieldset>
 
                 <!-- Submit Button -->
-                <br>
                 <button type="submit">Submit</button>
             </form>
         </div>
-        <ul id="word-list"></ul>   
+
+        <ol id="word-list"></ol>
     </main>
+
     <div data-include="components/footer.html"></div>
     <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
+
