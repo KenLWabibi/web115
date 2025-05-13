@@ -187,15 +187,11 @@ button:focus {
 
 /* List Styling */
 #word-list {
-    list-style-type: 
-    /*padding: 0;
-    margin: 20px auto;
-    width: 100%;
-    max-width: 800px;*/
+    list-style-type: none;
+    *padding: 0;
     margin: 20px auto;
     width: 100%;
     max-width: 800px;
-    padding-left: 40px
 }
 
 /* Dropdown Styles */
