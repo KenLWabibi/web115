@@ -186,7 +186,7 @@ button:focus {
 }
 
 /* List Styling */
-ul#word-list {
+#word-list {
     list-style-type: none;
     padding: 0;
     margin: 20px auto;
