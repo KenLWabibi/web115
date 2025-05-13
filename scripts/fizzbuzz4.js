@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ['divisor-1']: div1Input,
       ['divisor-2']: div2Input,
       ['divisor-3']: div3Input,
-      ['total-count']: totalCountInput,
+      ['total-count']: totalCountInput
     } = form.elements;
 
     const firstName = firstNameInput.value.trim();
